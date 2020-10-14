@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.ddd.shared.quartz.autoconfig.starter.QuartzCustomAutoConfiguration
