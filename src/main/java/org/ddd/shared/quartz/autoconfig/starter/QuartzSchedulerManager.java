@@ -2,11 +2,8 @@ package org.ddd.shared.quartz.autoconfig.starter;
 
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
-import org.quartz.impl.triggers.CronTriggerImpl;
 
-import javax.print.attribute.standard.JobName;
 import java.text.ParseException;
-import java.util.Date;
 
 /**
  * @author Mr.Yangxiufeng
