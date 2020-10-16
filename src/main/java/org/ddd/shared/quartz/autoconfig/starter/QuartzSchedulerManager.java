@@ -249,14 +249,6 @@ public class QuartzSchedulerManager {
             success = false;
             log.info(e.getLocalizedMessage());
         }
-        if ( !success ){
-            return false;
-        }
-        CronTriggerImpl trigger = new CronTriggerImpl();
-        trigger.setCronExpression(cronExpression);
-
-        Date date = trigger.computeFirstFireTime(null);
-
-        return date != null && date.after(new Date());
+        return success;
     }
 }
