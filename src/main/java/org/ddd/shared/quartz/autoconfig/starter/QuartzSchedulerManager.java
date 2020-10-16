@@ -244,7 +244,7 @@ public class QuartzSchedulerManager {
             cronExpression = new CronExpression(cron);
         } catch (ParseException e) {
             success = false;
-            log.info(e.getLocalizedMessage());
+            log.error("CronExpression ParseException : ", e);
         }
         return success;
     }
