@@ -238,10 +238,9 @@ public class QuartzSchedulerManager {
     }
 
     private boolean isValidExpression(final String cron) {
-        CronExpression cronExpression = null;
         boolean success = true;
         try {
-            cronExpression = new CronExpression(cron);
+            CronExpression cronExpression = new CronExpression(cron);
         } catch (ParseException e) {
             success = false;
             log.error("CronExpression ParseException : ", e);
