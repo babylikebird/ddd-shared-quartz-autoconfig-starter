@@ -1,4 +1,4 @@
-package org.ddd.shared.quartz.autoconfig.starter;
+package com.dsy.shared.quartz.autoconfig.starter;
 
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration;
