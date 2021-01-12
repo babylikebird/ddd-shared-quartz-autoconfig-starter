@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.dsy.shared.quartz.autoconfig.starter.QuartzCustomAutoConfiguration
+com.dsy.sunshine.quartz.autoconfig.starter.QuartzCustomAutoConfiguration
